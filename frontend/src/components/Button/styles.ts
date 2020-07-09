@@ -12,7 +12,7 @@ export const Container = styled.button`
   border-radius: 10px;
   border: 0;
 
-  color: #312e98;
+  color: #312e38;
   font-weight: 500;
 
   transition: background-color 0.2s;
