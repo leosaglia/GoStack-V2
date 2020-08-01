@@ -13,6 +13,7 @@ import * as Yup from 'yup';
 
 import { FormHandles } from '@unform/core';
 import { Form } from '@unform/mobile';
+import { createIconSetFromFontello } from 'react-native-vector-icons';
 import api from '../../services/api';
 
 import getValidationErrors from '../../utils/getValidationErrors';
@@ -136,7 +137,7 @@ const SignUp: React.FC = () => {
                   formRef.current?.submitForm();
                 }}
               >
-                Entrar
+                Cadastrar
               </Button>
             </Form>
           </Container>
